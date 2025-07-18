@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+/* === Top Header === */
+.top-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.brand img {
+  width: 100px;
+  height: 35px;
+}
+
+
+
+.search-bar {
+  flex: 1;
+  display: flex;
+  max-width: 500px;
+  margin: 0 40px;
+  border: 2px solid #3B82F6;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.search-bar input,
+.search-bar select {
+  padding: 8px;
+  border: 2px;
+  outline: 5px;
+  flex: 1;
+}
+
+.search-bar select {
+  font-weight: bold;
+  flex: 0 0 100px;
+}
+
+.search-bar button {
+  background-color: #3B82F6;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+/* === User Icons === */
+.user-icons {
+  display: flex;
+  gap: 25px;
+}
+
+.user-icons .icon {
+  flex: 0 0 45px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 14px;
+  color: #4B5563;
+}
+
+.user-icons img {
+  width: 24px;
+  height: 24px;
+  display: block;
+  margin: auto;
+  margin-bottom: 4px;
+}
+
+/* === Bottom Nav === */
+.flag {
+  width: 20px;
+  height: 14px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.bottom-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F9FAFB;
+  padding: 20px 20px;
+  border-top: 1px solid #E5E7EB;
+}
+
+.bottom-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.bottom-nav li {
+  font-weight: bold;
+  font-size: 14px;
+  color: #111827;
+  cursor: pointer;
+}
+
+/* === Footer === */
+footer {
+  background-color: #f9fafb;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #4b5563;
+}
+
+/* Newsletter */
+.footer-newsletter {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f1f5f9;
+}
+.footer-newsletter h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #111827;
+}
+.footer-newsletter p {
+  margin-bottom: 20px;
+}
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.newsletter-form input {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+.newsletter-form button {
+  padding: 10px 20px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Main Footer */
+.footer-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px 0;
+  gap: 60px;
+  align-items: flex-start;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px; /* this creates left/right spacing */
+}
+
+
+.footer-brand {
+  max-width: 240px;
+}
+.footer-brand .logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.footer-brand .logo img {
+  width: 100px;
+  height: 30px;
+}
+
+.footer-brand p {
+  margin: 10px 0;
+}
+.social-icons img {
+  width: 28px;
+  margin-right: 10px;
+}
+
+/* Links */
+.footer-links {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.footer-links h4 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #111827;
+}
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-links li {
+  margin-bottom: 6px;
+  color: #6b7280;
+  cursor: pointer;
+}
+
+/* App Store */
+.footer-app img {
+  width: 140px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.footer-app h4 {
+  margin-bottom: 15px;
+  
+}
+
+.footer-app {
+  max-width: 160px;
+  margin-right: 80px;
+}
+
+
+
+/* Footer Bottom */
+.footer-bottom {
+  background-color: #f9fafb;
+  border-top: 1px solid #e5e7eb;
+  padding: 15px 0;
+}
+
+.footer-bottom-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+
+.footer-bottom .language {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.footer-bottom .language img {
+  width: 20px;
+  height: 15px;
+}
